@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFF70B24170BAC0400C77A9B /* UFDPopSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF70B23170BAC0400C77A9B /* UFDPopSegue.m */; };
+		DFF70B73170C3F9200C77A9B /* UFDSwipeSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF70B72170C3F9200C77A9B /* UFDSwipeSegue.m */; };
 		DFF8B2C7170B90B300CE26B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF8B2C6170B90B300CE26B2 /* UIKit.framework */; };
 		DFF8B2C9170B90B300CE26B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF8B2C8170B90B300CE26B2 /* Foundation.framework */; };
 		DFF8B2CB170B90B300CE26B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF8B2CA170B90B300CE26B2 /* CoreGraphics.framework */; };
@@ -16,9 +18,18 @@
 		DFF8B2D9170B90B300CE26B2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8B2D8170B90B300CE26B2 /* Default.png */; };
 		DFF8B2DB170B90B300CE26B2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8B2DA170B90B300CE26B2 /* Default@2x.png */; };
 		DFF8B2DD170B90B300CE26B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF8B2DC170B90B300CE26B2 /* Default-568h@2x.png */; };
+		DFF8B2E4170B90D000CE26B2 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF8B2E3170B90D000CE26B2 /* Storyboard.storyboard */; };
+		DFF8B2E7170B91B000CE26B2 /* UFDFancySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B2E6170B91B000CE26B2 /* UFDFancySegue.m */; };
+		DFF8B2E9170B94EA00CE26B2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF8B2E8170B94EA00CE26B2 /* MapKit.framework */; };
+		DFF8B2EB170B955C00CE26B2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF8B2EA170B955C00CE26B2 /* QuartzCore.framework */; };
+		DFF8B2EE170BA4D500CE26B2 /* UFDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF8B2ED170BA4D500CE26B2 /* UFDFirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DFF70B22170BAC0400C77A9B /* UFDPopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFDPopSegue.h; sourceTree = "<group>"; };
+		DFF70B23170BAC0400C77A9B /* UFDPopSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFDPopSegue.m; sourceTree = "<group>"; };
+		DFF70B71170C3F9200C77A9B /* UFDSwipeSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFDSwipeSegue.h; sourceTree = "<group>"; };
+		DFF70B72170C3F9200C77A9B /* UFDSwipeSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFDSwipeSegue.m; sourceTree = "<group>"; };
 		DFF8B2C3170B90B300CE26B2 /* Custom Transitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Transitions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFF8B2C6170B90B300CE26B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DFF8B2C8170B90B300CE26B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +43,13 @@
 		DFF8B2D8170B90B300CE26B2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DFF8B2DA170B90B300CE26B2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DFF8B2DC170B90B300CE26B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DFF8B2E3170B90D000CE26B2 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		DFF8B2E5170B91B000CE26B2 /* UFDFancySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFDFancySegue.h; sourceTree = "<group>"; };
+		DFF8B2E6170B91B000CE26B2 /* UFDFancySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFDFancySegue.m; sourceTree = "<group>"; };
+		DFF8B2E8170B94EA00CE26B2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DFF8B2EA170B955C00CE26B2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DFF8B2EC170BA4D500CE26B2 /* UFDFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFDFirstViewController.h; sourceTree = "<group>"; };
+		DFF8B2ED170BA4D500CE26B2 /* UFDFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFDFirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF8B2EB170B955C00CE26B2 /* QuartzCore.framework in Frameworks */,
+				DFF8B2E9170B94EA00CE26B2 /* MapKit.framework in Frameworks */,
 				DFF8B2C7170B90B300CE26B2 /* UIKit.framework in Frameworks */,
 				DFF8B2C9170B90B300CE26B2 /* Foundation.framework in Frameworks */,
 				DFF8B2CB170B90B300CE26B2 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				DFF8B2CC170B90B300CE26B2 /* Custom Transitions */,
+				DFF8B2CD170B90B300CE26B2 /* Supporting Files */,
 				DFF8B2C5170B90B300CE26B2 /* Frameworks */,
 				DFF8B2C4170B90B300CE26B2 /* Products */,
 			);
@@ -68,6 +89,8 @@
 		DFF8B2C5170B90B300CE26B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DFF8B2EA170B955C00CE26B2 /* QuartzCore.framework */,
+				DFF8B2E8170B94EA00CE26B2 /* MapKit.framework */,
 				DFF8B2C6170B90B300CE26B2 /* UIKit.framework */,
 				DFF8B2C8170B90B300CE26B2 /* Foundation.framework */,
 				DFF8B2CA170B90B300CE26B2 /* CoreGraphics.framework */,
@@ -78,9 +101,17 @@
 		DFF8B2CC170B90B300CE26B2 /* Custom Transitions */ = {
 			isa = PBXGroup;
 			children = (
+				DFF8B2E3170B90D000CE26B2 /* Storyboard.storyboard */,
 				DFF8B2D5170B90B300CE26B2 /* UFDAppDelegate.h */,
 				DFF8B2D6170B90B300CE26B2 /* UFDAppDelegate.m */,
-				DFF8B2CD170B90B300CE26B2 /* Supporting Files */,
+				DFF8B2EC170BA4D500CE26B2 /* UFDFirstViewController.h */,
+				DFF8B2ED170BA4D500CE26B2 /* UFDFirstViewController.m */,
+				DFF70B22170BAC0400C77A9B /* UFDPopSegue.h */,
+				DFF70B23170BAC0400C77A9B /* UFDPopSegue.m */,
+				DFF8B2E5170B91B000CE26B2 /* UFDFancySegue.h */,
+				DFF8B2E6170B91B000CE26B2 /* UFDFancySegue.m */,
+				DFF70B71170C3F9200C77A9B /* UFDSwipeSegue.h */,
+				DFF70B72170C3F9200C77A9B /* UFDSwipeSegue.m */,
 			);
 			path = "Custom Transitions";
 			sourceTree = "<group>";
@@ -97,6 +128,7 @@
 				DFF8B2DC170B90B300CE26B2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			path = "Custom Transitions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +187,7 @@
 				DFF8B2D9170B90B300CE26B2 /* Default.png in Resources */,
 				DFF8B2DB170B90B300CE26B2 /* Default@2x.png in Resources */,
 				DFF8B2DD170B90B300CE26B2 /* Default-568h@2x.png in Resources */,
+				DFF8B2E4170B90D000CE26B2 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +200,10 @@
 			files = (
 				DFF8B2D3170B90B300CE26B2 /* main.m in Sources */,
 				DFF8B2D7170B90B300CE26B2 /* UFDAppDelegate.m in Sources */,
+				DFF8B2E7170B91B000CE26B2 /* UFDFancySegue.m in Sources */,
+				DFF8B2EE170BA4D500CE26B2 /* UFDFirstViewController.m in Sources */,
+				DFF70B24170BAC0400C77A9B /* UFDPopSegue.m in Sources */,
+				DFF70B73170C3F9200C77A9B /* UFDSwipeSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +283,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Custom Transitions/Custom Transitions-Prefix.pch";
 				INFOPLIST_FILE = "Custom Transitions/Custom Transitions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -257,7 +296,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Custom Transitions/Custom Transitions-Prefix.pch";
 				INFOPLIST_FILE = "Custom Transitions/Custom Transitions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -281,6 +322,7 @@
 				DFF8B2E2170B90B300CE26B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
